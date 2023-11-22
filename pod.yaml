@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: holidayapi
+spec:
+  containers:
+  - name: holidayapi
+    image: 045549827180.dkr.ecr.us-west-2.amazonaws.com/asxmod_group1:v1
+    ports:
+    - containerPort: 8080
