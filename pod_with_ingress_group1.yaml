@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
       - name: holiday-api
-        image: 045549827180.dkr.ecr.us-west-2.amazonaws.com/asxmod_group1:v1
+        image: 045549827180.dkr.ecr.us-west-2.amazonaws.com/asxmod_group1:v9
         ports:
          - containerPort: 8080
 
